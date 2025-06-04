@@ -1,0 +1,98 @@
+.game,
+.home,
+.results,
+.game-page {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+a {
+  display: block;
+  margin: 10px;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+.home .latest-result {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.home .latest-result button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home .latest-result button:hover {
+  background-color: #218838;
+}
+
+.home table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.home th,
+.home td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.home th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  display: table-cell; /* Ensure th is treated as a table cell */
+}
+
+.home thead {
+  display: table-header-group; /* Ensure thead is treated as a header group */
+}
